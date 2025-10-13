@@ -1,0 +1,87 @@
+Build a Progressive Web App (PWA) called FxFlow, a modern, minimalistic, responsive currency converter. The app should work on desktop and mobile browsers and can be installed like a native app.
+
+🎯 Features:
+
+Splash Screen: Shows the FxFlow logo and name for 3–4 seconds, then fades smoothly into the Home screen.
+
+Pages:
+
+Home Screen: Welcome message, button to go to converter, quick access to favorites.
+
+Converter Screen:
+
+Fetches all world currencies from a free API like https://api.exchangerate-api.com/v4/latest/USD.
+
+Two dropdowns for From Currency and To Currency.
+
+Input field for amount and a Convert button.
+
+Displays the converted value in a stylish card.
+
+Includes a “❤️ Save to Favorites” button for saving currency pairs locally (use localStorage).
+
+Favorites Screen: Shows all saved currency pairs with their last fetched exchange rate. Users can remove items.
+
+Settings Screen:
+
+Toggle switch for Dark Mode / Light Mode.
+
+Primary colors: Dark Blue (#0A1931) and White (#FFFFFF).
+
+Option to clear all favorites.
+
+Smooth page transitions and animations using Framer Motion (slide, fade, or card animations).
+
+Loading animations when fetching API data.
+
+Success animations when saving favorites.
+
+💅 Design:
+
+Minimalist, modern UI with rounded cards, soft shadows, and consistent spacing.
+
+Use clean fonts like Inter or Poppins.
+
+Buttons with subtle hover/press animation.
+
+Responsive layout optimized for mobile and desktop.
+
+⚙️ Tech Stack:
+
+Frontend: React + Tailwind CSS + Framer Motion
+
+State Management: React Context API (for theme & favorites)
+
+Storage: localStorage for favorites and theme preference
+
+API: Fetch currency rates from a free API
+
+Routing: React Router or any SPA router
+
+🪄 Extras:
+
+Splash screen animation fades in/out
+
+Animated transition when navigating between pages
+
+Dark/Light mode toggle persists using localStorage
+
+Mobile-first design, installable as PWA
+
+Optimize for smooth performance and fast loading
+
+Generate all code files, including:
+
+index.html / main entry
+
+All React components for pages
+
+Tailwind + Framer Motion animations
+
+Context provider for theme/favorites
+
+API integration code
+
+CSS / Tailwind setup
+
+Output ready-to-run code that can be copied into Replit or VS Code, and the app should work immediately as a PWA.
