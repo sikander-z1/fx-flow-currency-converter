@@ -26,3 +26,21 @@ Open your terminal in the root directory and install dependencies:
 
 Bash
 npm install
+
+
+Window 1: Start the Backend
+
+Bash
+cd server
+npm install
+npm run dev
+
+
+
+Window 2: Start the Frontend
+
+Bash
+cd client
+npm install
+npm run dev
+The app will typically be available at http://localhost:5173.
